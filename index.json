@@ -1,0 +1,12 @@
+{
+    "name":"favour",
+    "age": 45,
+    "flang": ["json", "js"],
+
+    "contact": {
+        "name":"good",
+        "age": 56
+    }
+
+
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+</head>
+<body>
+    <div class="login-main-wrapper">
+        <div class="login-header">
+            <div>
+                 <h2>Sign Up</h2>
+                <p>It's quick and easy.</p>
+            </div>
+            <i class="fas fa-times fa-2x"></i>
+        </div>
+
+    <hr>
+
+        <form   class="login-wrapper">
+            <div class="login-name-wrapper">
+                <div class="input-wrapper">
+                    <i class="fas fa-circle-exclamation error-icon"></i>
+                    <input class="name firstname" type="text" name="" id="firstname" placeholder="First name" autofocus>
+                   <p class="error-message">Please input your name</p>
+                </div>
+                <div class="input-wrapper">
+                    <i class="fas fa-circle-exclamation error-icon"></i>
+                   <input class="name surname" type="text" name="" id="surname" placeholder="Surname">
+                   <p class="error-message">Please input your Surname</p> 
+                </div>  
+            </div>
+            <div class="email">
+                <i class="fas fa-circle-exclamation error-icon"></i>
+                <input class="name" type="email" name="" id="email" placeholder="Mobile number or email address">
+                <p class="error-message">Please input your phone number or email address</p>
+                <input class="name re-enter" type="email" name="" id="re-enter" placeholder="Re-enter email address">
+            </div>
+            <div class="pw">
+                <div class="icons">
+                    <i class="fa fa-eye-slash slash"></i>
+                </div>
+                <input class="name " type="password" name="" id="psd" placeholder="New password">
+                <!-- <p class="error-message">Please input your phone number or email address</p> -->
+            </div>
+            <div>
+                <p>Date of birth <i class="fas fa-question-circle"></i></p>
+                <div class="date">
+                        <select   class="nam">
+                            <option selected disabled>Date</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6</option>
+                            <option value="">7</option>
+                            <option value="">8</option>
+                            <option value="">9</option>
+                            <option value="">10</option>
+                            <option value="">11</option>
+                            <option value="">12</option>
+                            <option value="">13</option>
+                            <option value="">14</option>
+                            <option value="">15</option>
+                            <option value="">16</option>
+                            <option value="">17</option>
+                            <option value="">18</option>
+                            <option value="">19</option>
+                            <option value="">20</option>
+                            <option value="">21</option>
+                            <option value="">22</option>
+                            <option value="">23</option>
+                            <option value="">24</option>
+                            <option value="">25</option>
+                            <option value="">26</option>
+                            <option value="">27</option>
+                            <option value="">28</option>
+                            <option value="">29</option>
+                            <option value="">30</option>
+                            <option value="">31</option>
+                    </select>
+                    <select class="nam">
+                        <option value="" selected disabled>Month</option>
+                        <option value="">january</option>
+                        <option value="">feburary</option>
+                        <option value="">march</option>
+                        <option value="">apirl</option>
+                        <option value="">may</option>
+                        <option value="">june</option>
+                        <option value="">july</option>
+                        <option value="">august</option>
+                        <option value="">september</option>
+                        <option value="">october</option>
+                        <option value="">november</option>
+                        <option value="">december</option>
+                    </select>
+                    <select class="nam" id="year">
+                        <option value="" selected disabled>year</option>
+                    </select>
+                </div>
+               
+            </div>
+            <div class="gender-wrapper">
+                <p>Gender  <i class="fas fa-question-circle"></i></p>
+                <div class="gender">
+                     <label class="label" for="radio1">Female <input type="radio" name="gender" id="radio1" value="female"></label>
+                     <label class="label" for="radio2">Male <input type="radio" name="gender" id="radio2" value="male"></label>
+                     <label class="label" for="radio3">Custom <input type="radio" name="gender" id="radio3" value="custom"></label>
+                </div>
+                <div class="gender-wrapper custom">
+                    <select class="nam">
+                        <option value="">He "Wish him a happy birthday!"</option>
+                        <option value="">He "Wish him a happy birthday!"</option>
+                        <option value="">He "Wish him a happy birthday!"</option>
+                    </select>
+                    <div class="gender-wrapper">
+                        <p>Your pronoun is visible to everyone</p>
+                        <input class="nam" type="text" placeholder="Gender (optional)">
+                  </div>
+                </div>
+               
+            </div>
+            <div>
+                <p class="agreed">By clicking Sign Up you agreed to our Terms, Data Policy and Cookie Policy. You may recieve SMS notifications from us and can opt out at any time.</p>
+            </div>
+            <div class="btn">
+                <button class="btn2" id="submit-btn">Sign Up</button>
+            </div>
+            
+      </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
+<!-- Regular expression -->
